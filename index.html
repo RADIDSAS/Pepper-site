@@ -6,36 +6,42 @@
     <title>Pepper Dem LLC</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 40px;
-            border-radius: 15px;
-            text-align: center;
-            max-width: 500px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-        }
-        .logo {
-            max-width: 150px;
-            margin-bottom: 20px;
-        }
-        h1 {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
             color: #333;
-            margin-bottom: 20px;
         }
-        p {
-            color: #555;
-            font-size: 16px;
+        header {
+            background-color: #0a0a0a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 120px;
+            margin-bottom: 10px;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .about {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 18px;
             line-height: 1.6;
+        }
+        .contact {
+            background-color: #f5f5f5;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .contact h2 {
+            margin-top: 0;
+        }
+        .contact p {
+            font-size: 16px;
+            margin: 10px 0;
         }
         a {
             color: #007BFF;
@@ -44,24 +50,43 @@
         a:hover {
             text-decoration: underline;
         }
+        footer {
+            background-color: #0a0a0a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="https://via.placeholder.com/150x150.png?text=Logo" alt="Pepper Dem LLC Logo" class="logo">
+
+    <header>
+        <img src="https://via.placeholder.com/150x150.png?text=Logo" alt="Pepper Dem LLC Logo">
         <h1>Pepper Dem LLC</h1>
-        <p><strong>Registered Address:</strong><br>
-        24486 Cornstalk Road,<br>
-        Wildomar, CA 92595,<br>
-        United States</p>
+    </header>
+
+    <section>
+        <div class="about">
+            <p>Pepper Dem LLC is a California-based Limited Liability Company, offering tailored business solutions and professional services to meet the unique needs of clients. Our mission is to deliver excellence, build trust, and contribute to the growth and success of our partners.</p>
+        </div>
+    </section>
+
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Address:</strong><br>
+        24486 Cornstalk Road, Wildomar, CA 92595, United States</p>
 
         <p><strong>Email:</strong><br>
         <a href="mailto:roseline@pepperdemllc.click">roseline@pepperdemllc.click</a></p>
 
         <p><strong>Phone:</strong><br>
         <a href="tel:+13412142907">(341) 214-2907</a></p>
-
-        <p>Pepper Dem LLC is a California-based Limited Liability Company providing reliable business solutions with a commitment to excellence and customer satisfaction.</p>
     </div>
+
+    <footer>
+        &copy; 2025 Pepper Dem LLC. All rights reserved.
+    </footer>
+
 </body>
 </html>
